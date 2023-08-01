@@ -16,7 +16,7 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/Users/bhargavsolanki/meggit/amplifyapp/src/resources/airplane.jpeg"); /* Replace with the actual path to the airplane image */
+  background-image: url("resources/airplane.jpeg"); /* Replace with the actual path to the airplane image */
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
