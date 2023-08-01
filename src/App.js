@@ -65,6 +65,7 @@ const App = ({ signOut }) => {
         <li>
         </li>
       </ul>
+      <Button onClick={signOut}>Sign Out</Button>
     </div>
   );
 };

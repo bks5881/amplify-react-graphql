@@ -16,7 +16,7 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background-image: url("resources/airplane.jpeg"); /* Replace with the actual path to the airplane image */
+  background-image: url("https://media.istockphoto.com/id/1337512445/de/vektor/blaues-flugzeug-isoliert.jpg?s=1024x1024&w=is&k=20&c=ZQ3TW6Q0yx1Fijyf-HXreA3rKtBcgF5IYI_ENbedzEs="); /* Replace with the actual path to the airplane image */
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
