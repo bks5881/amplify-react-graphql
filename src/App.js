@@ -1,7 +1,17 @@
 import React, { useState } from "react";
 import "./App.css";
-
-const App = () => {
+import "@aws-amplify/ui-react/styles.css";
+import { API } from "aws-amplify";
+import {
+    Button,
+    Flex,
+    Heading,
+    Text,
+    TextField,
+    View,
+    withAuthenticator,
+  } from "@aws-amplify/ui-react";
+const App = ({ signOut }) => {
   const [selectedOptions, setSelectedOptions] = useState({
     option1: "",
     option2: "",
@@ -59,4 +69,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default withAuthenticator(App);
